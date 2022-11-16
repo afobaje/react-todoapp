@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-todoapp/static/css/main.aa7e43d5.css",
-    "main.js": "/react-todoapp/static/js/main.44a07129.js",
+    "main.css": "/react-todoapp/static/css/main.e673c29a.css",
+    "main.js": "/react-todoapp/static/js/main.06a2b360.js",
     "static/js/787.006e7b9e.chunk.js": "/react-todoapp/static/js/787.006e7b9e.chunk.js",
     "static/media/3d-plastic-people-boy-with-map-going-on-a-hike.png": "/react-todoapp/static/media/3d-plastic-people-boy-with-map-going-on-a-hike.b1c12305a4262f07d27a.png",
     "service-worker.js": "/react-todoapp/service-worker.js",
@@ -9,12 +9,12 @@
     "static/media/off-button.png": "/react-todoapp/static/media/off-button.9bf895f0705e192e4789.png",
     "static/media/toggle-button.png": "/react-todoapp/static/media/toggle-button.3279783c66f5c9563c32.png",
     "index.html": "/react-todoapp/index.html",
-    "main.aa7e43d5.css.map": "/react-todoapp/static/css/main.aa7e43d5.css.map",
-    "main.44a07129.js.map": "/react-todoapp/static/js/main.44a07129.js.map",
+    "main.e673c29a.css.map": "/react-todoapp/static/css/main.e673c29a.css.map",
+    "main.06a2b360.js.map": "/react-todoapp/static/js/main.06a2b360.js.map",
     "787.006e7b9e.chunk.js.map": "/react-todoapp/static/js/787.006e7b9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa7e43d5.css",
-    "static/js/main.44a07129.js"
+    "static/css/main.e673c29a.css",
+    "static/js/main.06a2b360.js"
   ]
 }
