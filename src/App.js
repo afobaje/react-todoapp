@@ -61,7 +61,10 @@ function App() {
       <div className="w-screen p-4 justify-center content-center flex h-screen">
         <div className="w-11/12 flex flex-col justify-center content-center">
           <div className="w-full p-4 h-2/3 flex content-center justify-center">
-            <img src={Man} alt="" className="w-5/12" />
+            <div className="max-w-[80%] m-auto h-full">
+
+            <img src={Man} alt="" className="w-full" />
+            </div>
           </div>
           <div className="flex flex-col justify-center content-center">
             <h1 className="font-bold text-center text-xl mb-4">The Notepad</h1>
