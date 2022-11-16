@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/thenotepad/static/css/main.aa7e43d5.css",
+    "main.js": "/thenotepad/static/js/main.1515b06b.js",
+    "static/js/787.b3ad212b.chunk.js": "/thenotepad/static/js/787.b3ad212b.chunk.js",
+    "static/media/3d-plastic-people-boy-with-map-going-on-a-hike.png": "/thenotepad/static/media/3d-plastic-people-boy-with-map-going-on-a-hike.b1c12305a4262f07d27a.png",
+    "service-worker.js": "/thenotepad/service-worker.js",
+    "static/media/sammy-line-man-marks-completed-tasks-in-a-notebook.png": "/thenotepad/static/media/sammy-line-man-marks-completed-tasks-in-a-notebook.960269aa38b6d86c8a76.png",
+    "static/media/off-button.png": "/thenotepad/static/media/off-button.9bf895f0705e192e4789.png",
+    "static/media/toggle-button.png": "/thenotepad/static/media/toggle-button.3279783c66f5c9563c32.png",
+    "index.html": "/thenotepad/index.html",
+    "main.aa7e43d5.css.map": "/thenotepad/static/css/main.aa7e43d5.css.map",
+    "main.1515b06b.js.map": "/thenotepad/static/js/main.1515b06b.js.map",
+    "787.b3ad212b.chunk.js.map": "/thenotepad/static/js/787.b3ad212b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa7e43d5.css",
+    "static/js/main.1515b06b.js"
+  ]
+}
