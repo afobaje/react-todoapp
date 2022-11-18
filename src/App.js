@@ -13,10 +13,8 @@ import { auth } from "./services/firebase";
 
 function App() {
   auth.languageCode = "it";
-
   const provider = new GoogleAuthProvider();
   let [dark, setDark] = useState(false);
-
   // const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);
   let [show, setShow] = useState(false);
   let [verifiedUser, setVerifiedUser] = useState(null);
@@ -28,6 +26,8 @@ function App() {
       return [];
     }
   });
+
+  let username = verifiedUser && verifiedUser.displayName.split(" ")[0];
 
   useEffect(() => {
     localStorage.setItem("Todo", JSON.stringify(listItems));
@@ -62,8 +62,7 @@ function App() {
         <div className="w-11/12 flex flex-col justify-center content-center">
           <div className="w-full p-4 h-2/3 flex content-center justify-center">
             <div className="max-w-[80%] m-auto h-full">
-
-            <img src={Man} alt="" className="w-full" />
+              <img src={Man} alt="" className="w-full" />
             </div>
           </div>
           <div className="flex flex-col justify-center content-center">
@@ -101,12 +100,10 @@ function App() {
                 )}
               </span>{" "}
               <span className="mt-1 font-semibold dark:text-white">
-                {verifiedUser
-                  ? `${verifiedUser.displayName}'s Notepad`
-                  : "The Notepad"}
+                {verifiedUser ? `${username}'s Notepad` : "The Notepad"}
               </span>
             </div>
-            <div className="absolute right-10">
+            <div className="absolute ml-3 right-10">
               <button onClick={darkMode} className="w-10 h-10">
                 <img
                   className="object-cover h-full w-full"
